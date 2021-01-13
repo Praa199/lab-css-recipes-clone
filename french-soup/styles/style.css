@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
@@ -6,4 +10,46 @@ h1, body, html, main {
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+
+
+body {
+  font-family: ROBOTO;
+  width: fit-content;
+}
+
+
+.title-container,
+.intro-container,
+.ingredients-container,
+.directions-container{
+text-align: left;
+padding: 5% 10%;
+}
+
+.title-container{
+  padding: 30% 10%;
+  background-image: url(/french-soup/images/soup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title-container > h1{
+  font-size: 5rem;
+  font-weight: 200;
+  color: rgb(255, 255, 255);
+text-align: center;
+}
+
+img.image {
+  padding: 5% 20% 0 20%;
+  justify-content: space-around;
+  width: 40%;
+}
+
+#directions,
+#ingredients,
+#intro{
+  font-size: 1.8rem;
 }
